@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginTop="90dp"
+        android:id="@+id/TVname"
+        android:text="@string/emptystring1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp" />
+
+    <TextView
+        android:text="WELCOME"
+        android:gravity = "center"
+        android:background ="#32cd32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="49dp"
+        android:id="@+id/textView7"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/TVemail"
+        android:text="@string/emptystring"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/TVname"
+        android:layout_alignLeft="@+id/TVname"
+        android:layout_alignStart="@+id/TVname" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/TVcono"
+        android:text="@string/emptystring2"
+        android:layout_below="@+id/TVemail"
+        android:layout_alignLeft="@+id/TVemail"
+        android:layout_alignStart="@+id/TVemail"
+        android:layout_marginTop="10dp" />
+
+</RelativeLayout>
